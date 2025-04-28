@@ -1,0 +1,12 @@
+[project]
+name = "tech-postgresql-workshop"
+version = "1.0.0"
+description = "Postgresql initiation"
+readme = "README.md"
+requires-python = "==3.13.1"
+
+dependencies = [
+    "fastapi>=0.115.12",
+    "psycopg2-binary~=2.9.10",
+    "uvicorn>=0.34.2",
+]
